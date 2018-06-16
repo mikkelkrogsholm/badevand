@@ -1,0 +1,23 @@
+Package: badevand
+Type: Package
+Title: Retrieve data for danish beaches
+Version: 0.1.0.9999
+Author: Mikkel Freltoft Krogsholm
+Maintainer: Mikkel Freltoft Krogsholm <mikkel@56n.dk>
+Description: The package retrieves data from the API for beach data
+    available at <http://api.vandudsigten.dk/doc/beaches>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    magrittr,
+    dplyr,
+    httr,
+    lubridate,
+    purrr,
+    stringr,
+    tibble,
+    tidyr
+Suggests: 
+    testthat
+RoxygenNote: 6.0.1
