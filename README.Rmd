@@ -18,10 +18,24 @@ knitr::opts_chunk$set(
 
 The goal of badevand is to make it easy to retrieve data on danish beaches.
 
-## Example
+## Examples
 
-This is a basic example which shows you how to get the data:
+### How to get the data:
 
-```{r example}
+```{r get_data}
 beach_data <- badevand::beach_get_data()
+```
+
+```{r glimpse_data}
+dplyr::glimpse(beach_data) 
+```
+
+### How to see the internal data:
+
+```{r weather_type}
+dplyr::glimpse(badevand::weather_type) 
+```
+
+```{r water_quality}
+dplyr::glimpse(badevand::water_quality) 
 ```
